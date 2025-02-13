@@ -1,4 +1,4 @@
-"use strict"; // yreat all JS code as newer version
+"use strict"; // creat all JS code as newer version
 
 // alert(3 + 3) we are using node.js not browser
 
@@ -26,8 +26,5 @@ let isLoggedIn = false
 // typeof  // it is giving the type of the variable
 console.log(typeof "Ravi")
 
-console.log(typeof "null") // null
+console.log(typeof "null") // object
 console.log(typeof "undifined")  //undefined
-
-
-
