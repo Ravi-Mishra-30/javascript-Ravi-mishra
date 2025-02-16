@@ -40,5 +40,33 @@ const bigNumber = 32596545864869n
 //     console.log("Hello World");
 // }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory (Primitive), Heap Memory (non-Primitive)
+
+let myYoutubename = "ravimishradoycom"
+
+let anotherName = myYoutubename
+
+anotherName = "chaiaurcode"  
+
+// console.log(myYoutubename);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ravi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
