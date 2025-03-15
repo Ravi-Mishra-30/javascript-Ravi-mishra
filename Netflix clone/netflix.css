@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,9 @@
 
 
 .mainNetflixContainer{
-    border: 2px solid red;
-    padding: 1rem 2rem;
+    /* border: 2px solid red; */
+    padding: 0rem 2rem;
+    background-color: black;
 }
 
 nav{
@@ -16,24 +17,89 @@ nav{
 }
 
 .upperNavbarSection{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     height: 50%;
 }
 
 .upperNavbarLeftSection{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
 }
 
+.netflixLogo{
+    width: 29%;
+}
+
 .upperNavbaRightSection{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 50%;
+
+}
+
+.navbarButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid green; */
+    height: 100%;
+
+}
+
+.languageButton{
+    display: flex;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    background: transparent;
+    /* border: 1px solid white; */
+    outline: none;
+    color: white;
+}
+
+.languageButton p{
+    margin-left: 5px;
+}
+
+.signInButton{
+    background-color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
 }
 
 
 .lowerNavbarSection{
-    border: 2px solid black;
+    border: 2px solid red;
     height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
+.menuList{
+    border: 2px solid green;
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+
+
+
+.bannerSection{
+    border: 2px solid red;
+    height: 90vh;
+    background-image: url(BannerImage.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(transparent rgba(0,0,0,.7));
+}
