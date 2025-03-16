@@ -4,12 +4,35 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 
 .mainNetflixContainer{
     /* border: 2px solid red; */
-    padding: 0rem 2rem;
-    background-color: black;
 }
+
+.backgroundContainer{
+    background-image: url(BannerImage.jpg);
+    filter: blur(16px);
+    height: 100vh;
+    position: relative;
+}
+
+.pinkOverlay{
+    background-color: rgb(104, 3, 20, .404);
+    height: 100%;
+    width: 100%;
+}
+
+.contentContainer{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0rem 2rem;
+}
+
 
 nav{
     border: 2px solid green;
@@ -71,7 +94,7 @@ nav{
 
 
 .lowerNavbarSection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 50%;
     color: white;
     display: flex;
@@ -79,18 +102,28 @@ nav{
 }
 
 .menuList{
-    border: 2px solid green;
-    width: 30%;
+    /* border: 2px solid green; */
+    width: 40%;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     border-radius: 50px;
+    background-color: rgb(0, 0, 0, .5);
+    box-shadow: 2px 3px 14px rgb(0, 0, 0, .5);
+    height: 7vh;
+}
+
+.menuList li{
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
 
 .bannerSection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 90vh;
     background-image: url(BannerImage.jpg);
     background-size: 100% 100%;
