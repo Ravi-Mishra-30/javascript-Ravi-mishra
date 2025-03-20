@@ -26,6 +26,14 @@ let arr = [1, 2, 3, 4, 6, 7, 9]
 // console.log(arr);
 
 
+// shift() method
+
 // console.log(arr.shift()) //it will be remove the first element
 // console.log(arr)
 // console.log(arr.length)
+
+// unshift() method
+
+console.log(arr.unshift(10, 20, "Harry")) // it will be add one the element at the first
+console.log(arr)
+
